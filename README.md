@@ -36,3 +36,14 @@ These instructions will help you set up and run the project on your local machin
     ```go run main.go```
 
 The API will be available at http://localhost:8080
+
+### Example Usage
+
+```curl -X POST http://localhost:8080/tasks \
+  -H 'Content-Type: application/json' \
+  -d '{
+        "title": "New Task",
+        "description": "Description of the new task",
+        "due_date": "2024-07-01T12:00:00Z",
+        "status": "Pending"
+      }'
