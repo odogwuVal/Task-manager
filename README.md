@@ -25,7 +25,7 @@ These instructions will help you set up and run the project on your local machin
 
    ```bash
    git clone https://github.com/your-username/task-manager-api.git
-   cd task-manager-api```
+   cd task-manager-api
 
 2. Install Dependencies:
 
