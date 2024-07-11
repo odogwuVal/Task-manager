@@ -39,7 +39,8 @@ The API will be available at http://localhost:8080
 
 ### Example Usage
 
-```curl -X POST http://localhost:8080/tasks \
+```
+curl -X POST http://localhost:8080/tasks \
   -H 'Content-Type: application/json' \
   -d '{
         "title": "New Task",
